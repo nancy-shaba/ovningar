@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anmälan till fotopromenad</title>
+  </head>
+  <body>
+    <header>
+      <h1>Anmälan till fotopromenad</h1>
+    </header>
+    <main>
+      <p>
+        Fotoklubben Bländaren går en fotopromenad en lördag i månaden, och alla
+        får följa med. Du behöver ingen kamera, mobilen räcker. Anmäl dig så att
+        vi vet hur många som kommer.
+      </p>
+      <form>
+        <p>
+          <label for="name">Namn</label>
+          <input type="text" id="name" required />
+        </p>
+        <p>
+          <label for="email">E-post</label>
+          <input type="email" id="email" required />
+        </p>
+        <p>
+          <label for="date">Vilken lördag vill du gå?</label>
+          <input type="date" id="date" required />
+        </p>
+        <p>
+          <label for="count">Hur många kommer ni?</label>
+          <input type="number" id="count" />
+        </p>
+        <p>
+          <label for="camera">Vad fotograferar du med?</label>
+          <select id="camera">
+            <option>Mobilen</option>
+            <option>Systemkamera</option>
+            <option>Kompaktkamera</option>
+            <option>Vet inte än</option>
+          </select>
+        </p>
+        <p>
+          <label for="message">Något vi behöver veta?</label>
+          <textarea id="message"></textarea>
+        </p>
+        <p>
+          <button>Skicka anmälan</button>
+        </p>
+      </form>
+    </main>
+    <footer>
+      <p>Fotoklubben Bländaren · Ekby medborgarhus</p>
+    </footer>
+  </body>
+</html>
